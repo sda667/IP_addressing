@@ -13,8 +13,10 @@ The study also analyzes router behavior when forwarding packets (TTL and checksu
 ## Topology and Setup
 - Initial network: two hosts connected through a router.  
 - Extended topology: additional hosts (host3 and nsa2) to test routing tables and default routes.  
+<img width="1032" height="651" alt="topology" src="https://github.com/user-attachments/assets/848d77f9-2b1d-4d5b-936c-50ded2877531" />
 
-(Figure: Network topology not included here.)
+**Figure: Network topology**
+
 
 ---
 
@@ -81,7 +83,10 @@ Router forwards packets based on **longest prefix match** in the routing table.
 ### Routing Table Completion
 Router R routing table was completed by associating each interface with its collision domain.  
 
-(Figure: Routing table of router R not included here.)  
+<img width="415" height="211" alt="routeurR" src="https://github.com/user-attachments/assets/f3af4d29-e44a-4b1b-8ddd-9bd7b0e6bdc6" />
+
+
+**Figure: Routing table of router R**
 
 Configured with:  
 ```bash
