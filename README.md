@@ -4,8 +4,8 @@ This project covers **IP addressing configuration** and **static routing** in a 
 It uses diagnostic tools such as ping and traceroute to validate connectivity and analyzes router behavior when forwarding packets.
 
 ## Project Structure
-- `IP_addressing.pdf` → Full detailed lab report (LaTeX formatted with figures)
-- `IP_addressing.md` → Markdown version of the report for quick reading on GitHub
+- `IP_addressing.pdf` → Full detailed lab report
+- `IP_addressing.md` → Markdown version of the report
 
 ## Tools
 - Linux networking stack
